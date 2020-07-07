@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+#Introduction to IRIS Classification
+These are some of the important terms which will help you throughout your wonderful journey in machine learning using python.
+##Basic Terminologies in Classification Algorithms
+*Dataset: Table with the data from which the machine learns.When used to induce a model, the dataset is called training data.
+*Classifier: An algorithm that maps the input data to a specific category.
+*Classification model: A classification model tries to draw some conclusion from the input values given for training. It will predict the class labels/categories for the new data.
+*Instance: A row in the dataset. Other names for 'instance' are: (data) point, example, observation.
+*Feature: A feature is an individual measurable property of a phenomenon being observed.
+*Binary Classification: Classification task with two possible outcomes. Eg: Gender classification (Male / Female) , (Yes/No) or (True-1/False-0) question.
+*Multi-class classification: Classification with more than two classes. In multi-class classification, each sample is assigned to one and only one target label. Eg: An animal can be a cat or dog but not both at the same time.
+*Multi-label classification: Classification task where each sample is mapped to a set of target labels (more than one class). Eg: A news article can be about sports, a person, and location at the same time.
 
-You can use the [editor on GitHub](https://github.com/aishzone/IRIS-Classification/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/aishzone/IRIS-Classification/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+This is all you need to build your first classification model, Surprising right?
+##IRIS Classification model
+Use case  → Botanist wants to determine the species of an iris flower based on the characteristics of that flower.Attributes including petal length and width ,sepal length and width etc.. are the "features" that determine the classification of the given iris flower.
+![Image of setosa,versicolor,verginica](https://cdn-images-1.medium.com/max/800/1*gpWdhDY8Gmo2-OBRT8mQMQ.png)
+##Coding
+let's start off by displaying the above images on the screen
+![Image](https://cdn-images-1.medium.com/max/800/1*gd0p6zJQS-RQD6dAntPU9g.png)
+Now we start the actual coding by importing the required datasets for us to train and work with.
